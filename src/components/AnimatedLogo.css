@@ -1,0 +1,16 @@
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    overflow: visible;
+    /* Allow lines to extend */
+}
+
+.logo-svg {
+    max-width: 100%;
+    height: auto;
+    overflow: visible;
+    /* CRITICAL: Allows extended lines (T-bar) to be seen outside viewBox */
+}
